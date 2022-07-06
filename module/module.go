@@ -1,4 +1,4 @@
-package bot
+package module
 
 import (
 	"sync"
@@ -8,7 +8,6 @@ import (
 
 type Moduler interface {
 	MiraiGoModule() string
-
 	// Module 的生命周期
 
 	// Init 初始化
